@@ -3,11 +3,13 @@
 # Feature
 
 Tutti i repost degli utenti sono puntatori ad un link univoco
+
 I repost hanno un titolo definito dall'autore del repost
+
 L'upvote/downvote porta un aumento di score della risorsa e un aumento di "karma" per l'utente che ha repostato
 
 
-
+---
 
 Social per "trovare link"
 
