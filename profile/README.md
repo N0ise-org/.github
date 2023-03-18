@@ -17,18 +17,12 @@ I motori di ricerca non ti mostrano le cose interessanti
 
 Troviamo un modo di mostrare agli utenti link e articoli interessanti sulla base di ciò che gli utenti condividono
 
-
-
-Bacheca
-
-Account privato?
-
 ## Problemi
 - Perchè la gente dovrebbe scaricare?
 	- Per trovare info di qualità 
 	- per trovare info che su google sono sommerse da merda
 
-- Perchè la gente dovrebbe pubblciare?
+- Perchè la gente dovrebbe pubblicare?
 	- Knowledge sharing
 	- Se ho un bel profilo fa curriculum
 	- Possibilità di finire in homepage degli altri
@@ -48,7 +42,7 @@ Account privato?
 ## Come stracazzo portiamo il pane a casa?
 
 - Pagare per salire di rank
-	- No, diventiamo come goolge
+	- No, diventiamo come google
 - Feature limitate?
 	- Limiti le ricerche? è un po da stronzi però non è cosi male
 
@@ -64,11 +58,7 @@ Premium
 - Ricerche avanzate
 	- Filtri strani  es. no wikipedia
 - Rimuovi ads
-- Vedere cosa leggono le persone che segui (Privacy????????????)
-
-
-
-serverless
+- Vedere cosa leggono le persone che segui (Privacy?)
 
 ---
 ## Funzionalità 
@@ -103,27 +93,3 @@ serverless
 	- Vedere chi ha retwittato
 	- Commenti
 	- Eventuale propic
-
-
-## Archittettura
-
-Frontend
-	- React 
-	- typescript
-
-- DB
-	- No sql
-		- Mongo
-			- Redis
-
-- back
-	- Go? 
-		- + semplice
-	- py ?
-
-	- Node?
-
-- Load balancer
-	- ????
-
-Docker
