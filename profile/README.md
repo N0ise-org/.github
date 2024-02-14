@@ -1,95 +1,67 @@
-# N0ise
+# N0ise Platform Overview
 
-# Feature
+## Features
 
-Tutti i repost degli utenti sono puntatori ad un link univoco
-
-I repost hanno un titolo definito dall'autore del repost
-
-L'upvote/downvote porta un aumento di score della risorsa e un aumento di "karma" per l'utente che ha repostato
-
+- **Unique Repost Links**: All user reposts are pointers to a unique link.
+- **Custom Titles**: Reposts include a title defined by the repost's author.
+- **Voting System**: Upvotes and downvotes increase the resource score and the "karma" of the user who reposted.
 
 ---
 
-Social per "trovare link"
+## Concept: Discovering Links
 
-I motori di ricerca non ti mostrano le cose interessanti
+Traditional search engines often fail to surface interesting content. N0ise aims to present users with intriguing links and articles shared by others, addressing the gap in finding quality, niche content online.
 
-Troviamo un modo di mostrare agli utenti link e articoli interessanti sulla base di ciò che gli utenti condividono
+### Challenges
 
-## Problemi
-- Perchè la gente dovrebbe scaricare?
-	- Per trovare info di qualità 
-	- per trovare info che su google sono sommerse da merda
+- **User Adoption**: Why should people download N0ise?
+  - To discover high-quality information.
+  - To find content that is overlooked or buried by mainstream search results.
 
-- Perchè la gente dovrebbe pubblicare?
-	- Knowledge sharing
-	- Se ho un bel profilo fa curriculum
-	- Possibilità di finire in homepage degli altri
+- **Content Publishing**: Why should people contribute?
+  - To share knowledge.
+  - A well-curated profile can enhance one's resume.
+  - Opportunity to be featured on the homepage of others.
 
-- Evitare doppioni
+- **Avoiding Duplicates**: Ensuring content uniqueness.
+  
+- **Recommendation Engine**: How to recommend relevant content?
+  - Utilize tags, follower networks, and browsing history topics.
 
-- Come fare recomendation?
-	- Tag?
-	- Followers
-	- Topic della history
+- **Reading List Features**: 
+  - Avoiding re-suggestion of already read articles.
+  - Save for later reading option.
 
-- Reading list?
-	- Non ti ripropongo articoli già letti
-	- Read later
+### Monetization Strategies
 
+- **Rank Boosting Payments**: Dismissed to avoid becoming overly commercialized like Google.
+- **Limited Features for Free Users**: Possible limitations on searches but considered unfavorable.
+- **Default Ads with Paid Removal**: A viable model where users can pay to remove ads.
+- **Paid Reviews to Deter Bots and Spam**: Subscription-based or per-review payment to ensure quality content.
 
-## Come stracazzo portiamo il pane a casa?
-
-- Pagare per salire di rank
-	- No, diventiamo come google
-- Feature limitate?
-	- Limiti le ricerche? è un po da stronzi però non è cosi male
-
-- ADS di default, se non la vuoi paghi
-
-- Farti pagare per opinione
-	- Pago subscription/ ogni recensione
-		- Evitiamo i Bot
-		- Evitiamo shitstorm
-
-Premium
-- Verificato
-- Ricerche avanzate
-	- Filtri strani  es. no wikipedia
-- Rimuovi ads
-- Vedere cosa leggono le persone che segui (Privacy?)
+#### Premium Features
+- Verified status.
+- Advanced search options, including unique filters (e.g., exclude Wikipedia).
+- Ad removal.
+- Access to reading lists of followed users (with privacy considerations).
 
 ---
-## Funzionalità 
-- Condividere link
-	- Unici
-		- Pro
-			- Pulizia 
-		- Contro
-			- Difficoltà
-				- Come compariamo i link? Tagliamo i parametri? Ci sono casi in cui questo cambia destinazione? (su amazon ad es)
 
-- Seguire altri utenti
-	- Mostrare cio che postano sulla tua home
+## Functionalities
 
+- **Link Sharing**: Unique link sharing to maintain content quality.
+  - **Pros**: Cleanliness.
+  - **Cons**: Complexity in comparing and managing links (e.g., parameter handling, destination changes on platforms like Amazon).
 
-- Homepage
-	- Tutti i post con recomendation
+- **Following Users**: Display content from followed users on your homepage.
 
+- **Homepage**: Features posts with recommendations.
 
+- **Profile Management**: 
+  - Display all shared links.
+  - Reviews or comments on links, including reposts with commentary.
 
-- Mio profilo
-	- Tutti i miei link
-	- Recensioni e/o commenti
-		- Repost del link con commento
-
-- Link
-	- Topic
-		- Manuali
-			- Anche custom
-		 - Automatici
-			 - Si vedra
-	- Vedere chi ha retwittato
-	- Commenti
-	- Eventuale propic
+- **Link Features**: 
+  - Topics categorization (manual and automatic).
+  - Viewing repost and comment activities.
+  - Potential for profile pictures (propic) associated with links.
